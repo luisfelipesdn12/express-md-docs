@@ -1,5 +1,5 @@
 import { RequestHandler } from "express";
-import { PathOrFileDescriptor, readFile } from "fs";
+import { PathLike, readFile } from "fs";
 import { marked } from "marked";
 
 const simpleCSSImport: string = `<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">`;
@@ -10,7 +10,7 @@ export interface ExpressDocsOptions {
      * the API documentation.
      * @default "README.md"
      */
-    docsPath?: PathOrFileDescriptor;
+    docsPath?: PathLike;
     /**
      * Whether auto to import styling from
      * [Simple CSS](https://simplecss.org).
