@@ -30,8 +30,15 @@ export const defaultOptions: ExpressDocsOptions = {
     style: true,
 };
 
-export default function expressDocs(options: ExpressDocsOptions): RequestHandler {
-    const { docsPath, style, htmlPrefix } = { ...defaultOptions, ...options };
+export default function expressDocs(options?: ExpressDocsOptions): RequestHandler {
+    const {
+        docsPath,
+        style,
+        htmlPrefix
+    }: ExpressDocsOptions = {
+        ...defaultOptions,
+        ...options,
+    };
 
     return (_req, res) => {
         readFile(docsPath, (error, data) => {
