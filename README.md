@@ -1,6 +1,8 @@
 # express-md-docs
 📝 An Express middleware to render Markdown files into beautiful content in your API
 
+![This documentation rendered in a API to demonstrate the working of the package.](./.github/assets/docs-demo.png)
+
 ## Install
 
 - **Using NPM**
