@@ -1,6 +1,6 @@
 {
   "name": "express-md-docs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "📝 An Express middleware to render Markdown files into beautiful content in your API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,5 +34,8 @@
     "@types/marked": "^4.0.1",
     "@types/node": "^17.0.9",
     "typescript": "^4.5.4"
-  }
+  },
+  "files": [
+      ".github/assets"
+  ]
 }
