@@ -1,10 +1,10 @@
 {
-  "name": "express-docs",
+  "name": "express-md-docs",
   "version": "1.0.0",
   "description": "📝 An Express middleware to render Markdown files into beautiful content in your API",
   "main": "index.js",
   "types": "index.d.ts",
-  "repository": "git@github.com:luisfelipesdn12/express-docs.git",
+  "repository": "git@github.com:luisfelipesdn12/express-md-docs.git",
   "author": {
     "name": "Luis Felipe Santos do Nascimento",
     "url": "https://luisfelipesdn12.now.sh",
