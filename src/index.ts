@@ -30,7 +30,7 @@ export const defaultOptions: ExpressDocsOptions = {
     style: true,
 };
 
-export default function expressDocs(options?: ExpressDocsOptions): RequestHandler {
+export default function expressMdDocs(options?: ExpressDocsOptions): RequestHandler {
     const {
         docsPath,
         style,
